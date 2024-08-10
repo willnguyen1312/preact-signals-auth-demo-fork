@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #111;
+  margin-bottom: 4rem;
+}
+
+h1 {
+  font-size: 1.3rem;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+header li:not(:last-child) {
+  margin-right: 2rem;
+}
+
+li button {
+  padding: 0.2rem 0.5rem;
+}
